@@ -10,6 +10,10 @@ $(function() {
       $('.menu').addClass('menu-active');
     }
   });
+  $('.menu__link').click(() => {
+    $('body').css('overflow', 'initial');
+    $('.menu').removeClass('menu-active');
+  });
 
   // Слайдер
   $('.partners__container').slick({
