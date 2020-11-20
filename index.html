@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Webim</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+  <link rel="shortcut icon" href="img/manifest/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/slick.css">
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/slick.js" defer></script>
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#"><img src="img/logo.svg" alt="Webim"></a>
+    <button class="header__toggle" aria-label="Открыть меню"></button>
+    <nav class="menu">
+      <ul class="menu__list ul-reset">
+        <li class="menu__item">
+          <a href="#main" class="menu__link">Main</a>
+        </li>
+        <li class="menu__item">
+          <a href="#features" class="menu__link">Features</a>
+        </li>
+        <li class="menu__item">
+          <a href="#item" class="menu__link">Item</a>
+        </li>
+        <li class="menu__item">
+          <a href="#partners" class="menu__link">Partners</a>
+        </li>
+        <li class="menu__item">
+          <a href="#faq" class="menu__link">F.A.Q.</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="main" class="main">
+      <div class="fixed-container">
+        <div class="main__container">
+          <h1 class="h1">Header</h1>
+          <p class="main__text">Lorem irure fugiat cupidatat duis mollit commodo. Eu cillum ea reprehenderit elit laboris do exercitation laborum sit elit incididunt aute fugiat consectetur.</p>
+          <a href="#" class="main__link">Watch the video to find out more</a>
+        </div>
+        <img src="img/video.png" alt="" class="main__bg">
+      </div>
+    </section>
+    <div class="gradient">
+      <section id="features" class="features">
+        <div class="fixed-container">
+          <h2 class="h2">Functionality and features</h2>
+          <ul class="features__box ul-reset">
+            <li class="features__item">
+              <div class="features__item--container">
+                <p class="features__text">Access data from over 30,0000 global stations</p>
+              </div>
+            </li>
+            <li class="features__item">
+              <div class="features__item--container">
+                <p class="features__text">Create your own library of data</p>
+              </div>
+            </li>
+            <li class="features__item">
+              <div class="features__item--container">
+                <p class="features__text">Analyse your data</p> 
+              </div>
+            </li>
+            <li class="features__item">
+              <div class="features__item--container">
+                <p class="features__text">Present your data</p>
+              </div>
+            </li>
+          </div>
+        </div>
+      </section>
+
+      <section id="item" class="item">
+        <div class="fixed-container">
+          <img src="img/ask.png" alt="" class="item__bg">
+
+          <div class="item__container">
+            <h2 class="item__h2">We want the best value for you:</h2>
+
+            <form method="post" action="" class="form">
+              <ul class="form__list ul-reset">
+                <li class="form__item">
+                  <h3 class="form__item--title">1.  Are you willing to spend money?</h3>
+                  <div class="form__item--box">
+                    <input class="form__item--checkbox" type="radio" name="money" id="money-1">
+                    <label class="form__item--label" for="money-1">Yes</label>
+                    <input class="form__item--checkbox" type="radio" name="money" id="money-2">
+                    <label class="form__item--label" for="money-2">No</label>
+                  </div>
+                </li>
+                <li class="form__item">
+                  <h3 class="form__item--title">2.  Who are you?</h3>
+                  <div class="form__item--box">
+                    <input class="form__item--checkbox" type="radio" name="who" id="who-1">
+                    <label class="form__item--label" for="who-1">Individual</label>
+                    <input class="form__item--checkbox" type="radio" name="who" id="who-2">
+                    <label class="form__item--label" for="who-2">Student</label>
+                    <input class="form__item--checkbox" type="radio" name="who" id="who-3">
+                    <label class="form__item--label" for="who-3">Company user</label>
+                  </div>
+                </li>
+                <li class="form__item">
+                  <h3 class="form__item--title">3.  What sort of data are you working with?</h3>
+                  <div class="form__item--box">
+                    <input class="form__item--checkbox" type="radio" name="working" id="working-1">
+                    <label class="form__item--label" for="working-1">Meteorological</label>
+                    <input class="form__item--checkbox" type="radio" name="working" id="working-2">
+                    <label class="form__item--label" for="working-2">Other</label>
+                  </div>
+                </li>
+                <li class="form__item">
+                  <h3 class="form__item--title">4.  Wind Speed Data:</h3>
+                  <div class="form__item--box">
+                    <input class="form__item--checkbox" type="radio" name="speed" id="speed-1">
+                    <label class="form__item--label" for="speed-1">I have my own</label>
+                    <input class="form__item--checkbox" type="radio" name="speed" id="speed-2">
+                    <label class="form__item--label" for="speed-2">I want to find quality wind speed data</label>
+                  </div>
+                </li>
+              </ul>            
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section id="partners" class="partners">
+        <div class="fixed-container">
+          <h2 class="h2">Our partners</h2>
+
+          <div class="partners__container">
+            <a href="#" class="partners__item">
+              <img src="img/partner-1.png" alt="partners-1" class="partners__item--img">
+            </a>
+            <a href="#" class="partners__item">
+              <img src="img/partner-2.png" alt="partners-2" class="partners__item--img">
+            </a>
+            <a href="#" class="partners__item">
+              <img src="img/partner-3.png" alt="partners-3" class="partners__item--img">
+            </a>
+            <a href="#" class="partners__item">
+              <img src="img/partner-4.png" alt="partners-4" class="partners__item--img">
+            </a>
+            <a href="#" class="partners__item">
+              <img src="img/partner-1.png" alt="partners-5" class="partners__item--img">
+            </a>
+            <a href="#" class="partners__item">
+              <img src="img/partner-2.png" alt="partners-6" class="partners__item--img">
+            </a>
+            <a href="#" class="partners__item">
+              <img src="img/partner-3.png" alt="partners-7" class="partners__item--img">
+            </a>
+            <a href="#" class="partners__item">
+              <img src="img/partner-4.png" alt="partners-8" class="partners__item--img">
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section id="faq" class="faq">
+      <div class="fixed-container">
+        <h2 class="faq__h2">Our features</h2>
+        <p class="faq__posttext">Lorem irure fugiat cupidatat duis mollit commodo. Eu cillum ea reprehenderit elit laboris do exercitation
+laborum sit elit incididunt aute fugiat consectetur.</p>
+
+        <div class="tabs">
+          <div class="tabs__item">
+            <input type="checkbox" id="tab1" name="tab">
+            <label for="tab1" class="tabs__item--title">Lorem irure fugiat cupidatat duis mollit commodo?</label> 
+            <div class="tabs__item--content">
+              <p>Lorem irure fugiat cupidatat duis mollit commodo. Eu cillum ea reprehenderit elit laboris do exercitation laborum sit elit incididunt aute fugiat consectetur.</p>
+            </div>
+          </div>
+          <div class="tabs__item">
+            <input type="checkbox" id="tab2" name="tab">
+            <label for="tab2" class="tabs__item--title">Commodo nisi aliqua proident consequat consequat?</label> 
+            <div class="tabs__item--content">
+              <p>Lorem irure fugiat cupidatat duis mollit commodo. Eu cillum ea reprehenderit elit laboris do exercitation laborum sit elit incididunt aute fugiat consectetur.</p>
+            </div>
+          </div>
+          <div class="tabs__item">
+            <input type="checkbox" id="tab3" name="tab">
+            <label for="tab3" class="tabs__item--title">Sunt veniam voluptate reprehenderit consectetur eiusmod quis?</label> 
+            <div class="tabs__item--content">
+              <p>Lorem irure fugiat cupidatat duis mollit commodo. Eu cillum ea reprehenderit elit laboris do exercitation laborum sit elit incididunt aute fugiat consectetur.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>    
+  </main>
+  <footer class="footer">
+    <div class="fixed-container">
+      <a href="#" class="footer__logo"><img src="img/logo-footer.svg" alt="Webim"></a>
+      <ul class="ul-reset socials">
+        <li><a class="socials__shareicon--fb" href="#" target="_blank" aria-label="Facebook"></a></li>
+        <li><a class="socials__shareicon--yt" href="#" target="_blank" aria-label="YouTube"></a></li>
+        <li><a class="socials__shareicon--inst" href="#" target="_blank" aria-label="Instagram"></a></li>
+      </ul>    
+    </div>
+  </footer>
+</body>
+</html>
